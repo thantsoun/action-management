@@ -1,13 +1,13 @@
-package iso.actionmanagement.maintenance;
+package iso.actionmanagement.notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ActionMgmtApplication {
+public class NotificationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ActionMgmtApplication.class, args);
+		SpringApplication.run(NotificationApplication.class, args);
 	}
 
 }
