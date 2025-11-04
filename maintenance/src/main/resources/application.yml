@@ -1,20 +1,6 @@
 server:
-  port: 9010
+  port: 9011
 
 spring:
   application:
-    name: "message"
-  cloud:
-    function:
-      definition: email|sms
-    stream:
-      bindings:
-        emailsms-in-0:
-          destination: send-communication
-          group: ${spring.application.name}
-        emailsms-out-0:
-          destination: communication-sent
-      kafka:
-        binder:
-          brokers:
-            - localhost:9092
+    name: "maintenance-service"
