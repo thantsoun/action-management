@@ -1,0 +1,6 @@
+server:
+  port: 9014
+
+spring:
+  application:
+    name: "knowledge-service"
